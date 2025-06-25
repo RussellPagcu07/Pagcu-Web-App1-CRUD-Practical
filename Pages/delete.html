@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Delete Student - Student Directory</title>
+  <link rel="stylesheet" href="../CSS/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Delete Student Record</h1>
+    <form method="POST" action="../Management/delete.php">
+      <label for="student_id">Enter Student ID to Delete:</label>
+      <input type="number" name="student_id" id="student_id" required />
+
+      <button type="submit">Delete Student</button>
+    </form>
+
+    <form action="index.html">
+      <button type="submit" class="secondary">Back to Menu</button>
+    </form>
+  </div>
+</body>
+</html>

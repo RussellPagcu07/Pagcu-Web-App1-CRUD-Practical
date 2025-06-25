@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Update Student - Student Directory</title>
+  <link rel="stylesheet" href="../CSS/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Update Student Record</h1>
+    <form method="POST" action="../Management/update.php">
+      <label for="student_id">Student ID:</label>
+      <input type="number" name="student_id" id="student_id" required />
+
+      <label for="first_name">New First Name:</label>
+      <input type="text" name="first_name" id="first_name" />
+
+      <label for="last_name">New Last Name:</label>
+      <input type="text" name="last_name" id="last_name" />
+
+      <label for="year_level">New Year Level:</label>
+      <select name="year_level" id="year_level">
+        <option value="">-- Select Year Level --</option>
+        <option value="1st Year">1st Year</option>
+        <option value="2nd Year">2nd Year</option>
+        <option value="3rd Year">3rd Year</option>
+        <option value="4th Year">4th Year</option>
+        <option value="5th Year">5th Year</option>
+      </select>
+
+      <label for="program">New Program:</label>
+      <input type="text" name="program" id="program" />
+
+      <label for="email">New Email:</label>
+      <input type="email" name="email" id="email" />
+
+      <button type="submit">Update Student</button>
+    </form>
+
+    <form action="index.html">
+      <button type="submit" class="secondary">Back to Menu</button>
+    </form>
+  </div>
+</body>
+</html>
