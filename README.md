@@ -1,6 +1,6 @@
-**Project developed by** Russell C. Pagcu 
+**Project developed by** Russell C. Pagcu  
 **USN:** 23000958010  
-**Year Level and Program** 2nd Year - BSIT
+**Year Level and Program:** 2nd Year – BSIT  
 
 # Student Directory Management System
 
@@ -14,7 +14,7 @@ This project is a **CRUD-based web application** developed as a hands-on exercis
 - **MySQL**
 - **HTML5**
 - **CSS3**
-- **JavaScript (for basic interaction)**
+- **JavaScript** (for basic interaction)
 - **XAMPP** (Apache + MySQL for local development)
 
 ## ▶️ How to Run This Project Locally
@@ -42,3 +42,7 @@ This project is a **CRUD-based web application** developed as a hands-on exercis
 5. Open a browser and go to:  
    `http://localhost/STUDENT_DIRECTORY_MANAGEMENT/Pages/index.html`
 6. Navigate through the application to perform **Create**, **Read**, **Update**, and **Delete** operations on student records.
+
+## 🙏 Credits
+
+- No third-party code or templates were reused. All code was written from scratch for academic purposes.
